@@ -44,7 +44,7 @@ def main():
         for key_name in all_abbreviations:
             output_file.write(key_name + ' | ')
             output_file.write(' '.join(all_abbreviations[key_name]) + '\n') #Joining the best abbreviations
-                
+        print("Output file " + output_filename + " successfully created")
 
 if __name__ == "__main__":
     main()
